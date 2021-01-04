@@ -1,6 +1,8 @@
 /*
 https://practice.geeksforgeeks.org/problems/first-repeating-element4018/1
 
+Method 1:
+
 Time complexity: O(nlogn)
 Spae complexity: O(n) //we took temp[n]. */
 
@@ -51,4 +53,21 @@ public static int firstRepeated(int []a, int n) //1
           return (i+1);
     }
     return -1;
+}
+
+// Method2:
+
+Time complexity: O(n)
+Space complexity: O(n)
+
+static int firstRepeated(int a[],int n){
+    HashSet<Integer> hs=new HashSet<>();
+    int min=-1;
+    for(int i=n-1;i>=0;i--){
+        if(hs.contains(a[i]))
+          min=i;
+        else 
+          hs.add(a[i]);  
+    }
+    return min;
 }
