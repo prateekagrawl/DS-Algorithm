@@ -1,9 +1,11 @@
  /*
 
  https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1
- 
+
  Time complexity: O(N)
  Space complexity: O(1) */
+
+//  Moore's Voting algo
  
  
  static int majorityElement(int a[], int n)
