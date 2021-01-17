@@ -6,6 +6,7 @@ Space complexity: O(1) */
 
 //Given an array arr of N positive integers and another number X. Determine whether or not there exist two elements in arr whose sum is exactly X.
 
+// We assume all array elements are distinct and don't repeat 
 boolean hasArrayTwoCandidates(int arr[], int n, int x) {
         // code here
         Arrays.sort(arr);  
