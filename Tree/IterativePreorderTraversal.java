@@ -22,3 +22,4 @@ static ArrayList<Integer> preorder(Node root)
               curr=st.pop();
         }
         return al;
+    }
