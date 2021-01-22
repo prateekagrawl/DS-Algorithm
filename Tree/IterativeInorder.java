@@ -20,3 +20,4 @@
             curr=curr.right;
         }
         return al;
+    }
