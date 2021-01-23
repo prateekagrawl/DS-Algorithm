@@ -1,6 +1,7 @@
 /**
 https://practice.geeksforgeeks.org/problems/postorder-traversal/1
-Time complexity O(n)
+Time complexity O(n) since every node is visited once and each performs constant time in doing operation.
+Space complexity: O(n) since finally stack2 has all elements in it.
  */
 
 // Algorithm:
