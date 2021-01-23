@@ -1,7 +1,7 @@
 /*
 https://practice.geeksforgeeks.org/problems/reverse-level-order-traversal/1
 
-Time complexity: O(n)
+Time complexity: O(n) since every node is visited once.
 Space complexity: O(n) */
 
 public ArrayList<Integer> reverseLevelOrder(Node node) 
