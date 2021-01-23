@@ -1,6 +1,6 @@
 /*
 https://practice.geeksforgeeks.org/problems/level-order-traversal/1#
-Time complexity: O(n)
+Time complexity: O(n) since we are visiting every node once
 Space complexity: O(n) since it depends on the queue and in worst case,queue will have all the leaf nodes which is (n/2). 
 where n is the no. of nodes*/
 
