@@ -3,7 +3,6 @@
 Time complexity: O(log n)
 Space: O(1) */
 
-class GfG {
     int transitionPoint(int a[], int n) {
         // code here
         int l=0,r=n-1;
@@ -18,4 +17,4 @@ class GfG {
         }
         return -1;
     }
-}
+
