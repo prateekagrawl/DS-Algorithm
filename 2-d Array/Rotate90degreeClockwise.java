@@ -32,3 +32,21 @@ public void rotate(int[][] matrix) {
             }
         }
     }
+
+
+
+
+    //for anticlockwise, same code except some reverse function changes
+
+    static void reverseColumns(int arr[][])
+	{
+		for (int i = 0; i < arr[0].length; i++){
+			int l=0 , r= arr.length-1;
+            while(l<=r){
+                int temp = arr[l][i];
+				arr[l][i] = arr[r][i];
+				arr[r][i] = temp;
+                l++;
+                r--;
+            }
+	}}
