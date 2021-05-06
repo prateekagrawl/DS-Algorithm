@@ -3,7 +3,6 @@
 // Time complexity: O(n) 
 // Space complexity: O(n) for res[]
 
-
  public int[] countBits(int num) {
         int res[]= new int[num+1];
         res[0]=0;
