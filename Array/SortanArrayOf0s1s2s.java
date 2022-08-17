@@ -6,6 +6,8 @@ Time complexity: O(N)
 Space complexity: O(1) */
 
 // Dutch national flag algo is used
+- We keep low and mid pointers at 0th position and high at (N-1)th position with the thought process that
+  low to (mid-1) will be 0, mid to (high-1) will be 1 and high to N will be 2
 1. if 0,swap a[low] and a[mid] values and increment both pointers
 2. if a[m]=1,simply increment m
 3. if a[m]=2, swap a[mid] and a[high] values an decrement high pointer
