@@ -39,7 +39,7 @@ class Solution {
             if(sum > res){
                 res = sum;
             }
-            //if sum is negative, initialise sum with 0
+            //if sum is negative, initialise sum with 0 coz we want to maximize the subarray sum, carrying a negative sum won't do any good.
             if(sum<0)
                 sum=0;
         }
