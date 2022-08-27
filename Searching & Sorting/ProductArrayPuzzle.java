@@ -4,7 +4,7 @@ https://practice.geeksforgeeks.org/problems/product-array-puzzle4525/1#(excel sh
 Time complexity: O(N)
 Space complexity: O(N)  */
 
-
+class abc{
 public static long[] productExceptSelf(int a[], int n) 
 	{ 
         // code here
@@ -23,5 +23,6 @@ public static long[] productExceptSelf(int a[], int n)
         //result array
         for(int i=0;i<n;i++)
           res[i]=l[i]*r[i];
-        return res;  
-	} 
+        return res;
+	}
+}

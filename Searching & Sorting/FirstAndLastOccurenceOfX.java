@@ -7,7 +7,7 @@ Space Complexity: O(1)
 check babbar's video tutorial
 
 */
-class Solution {
+class Solution1 {
 	public int findFirstPosition(int a[], int key, int n){
 		int l = 0, h = n-1, ans = -1;
 		while(l<=h){
