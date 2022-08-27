@@ -7,7 +7,7 @@ Space Complexity: O(1)      */
 //Approach 1:
 class Solution {
     public int peakIndexInMountainArray(int[] a) {
-        int r=a.length;
+        int r=a.length-1;
         int l=0,m=-1;
         while(l<=r){
             m=l+(r-l)/2;
