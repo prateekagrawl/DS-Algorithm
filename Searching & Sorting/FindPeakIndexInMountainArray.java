@@ -5,7 +5,7 @@ Space Complexity: O(1)      */
 
 
 //Approach 1:
-class Solution {
+class xyz {
     public int peakIndexInMountainArray(int[] a) {
         int r=a.length-1;
         int l=0,m=-1;
@@ -24,7 +24,7 @@ class Solution {
 
 
 //Approach 2: love babbar solution
-class Solution {
+class Solution3 {
     public int peakIndexInMountainArray(int[] arr) {
         int  s = 0 , e = arr.length-1;
         while(s<e){
