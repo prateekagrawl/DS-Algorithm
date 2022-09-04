@@ -36,12 +36,16 @@ class Sol
         int sum=0,carry=1;
         while(curr!=null){
             sum=curr.data+carry;
+//          update carry for next calculation
             carry=(sum>=10)?1:0;
+//          update sum if it is greater than 10
             sum=sum%10;
             curr.data=sum;
+            // Move curr pointer to next node and store value of prev node in temp
             temp=curr;
             curr=curr.next;
         }
+        //add a new node if carry is still left
         if(carry>0){
             temp.next=new Node(carry);
         }

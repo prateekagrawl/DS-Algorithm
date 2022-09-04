@@ -16,3 +16,18 @@ class Solution {
         return prev;
     }
 }
+
+//Approach2: recursive (based on gfg blog https://geeksforgeeks.org/reverse-a-linked-list/)
+class reverseRecursive{
+    public ListNode reverseList(ListNode head) {
+
+        // Recursive approach
+        if(head==null || head.next==null) return head;
+        ListNode rest = reverseList(head.next);
+
+        // change the pointer to the first node
+        head.next.next = head;
+        head.next = null;
+        return rest;
+        }
+}
