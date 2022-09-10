@@ -4,7 +4,8 @@
 /*Algo:
 1. Find middle of LL.
 2. Reverse 2nd half of the LL.
-3. Now start comparing the first half and the 2nd half data of nodes until it traverses till the last element
+3. Now start comparing the first half and the 2nd half data of nodes until it traverses
+till the last element
 */
     class PalindromeOfLL {
         public ListNode middle(ListNode curr){

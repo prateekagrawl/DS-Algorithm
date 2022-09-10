@@ -6,7 +6,7 @@ Space complexity:O(1) */
 
 //Algo:
 // 1.Check whether loop exists or not.
-//2.If it does, move slow pointer and traverse it again till fast pointer and keep on increasing count.
+// 2.If it does, move slow pointer and traverse it again till fast pointer and keep on increasing count.
 
 class Node
 {

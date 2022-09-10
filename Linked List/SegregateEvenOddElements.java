@@ -1,5 +1,6 @@
 //https://www.geeksforgeeks.org/segregate-even-and-odd-elements-in-a-linked-list/
 
+class abc{
 public void segregateEvenOdd() { 
           
     Node evenStart = null; 
@@ -43,4 +44,4 @@ public void segregateEvenOdd() {
     evenEnd.next = oddStart; 
     oddEnd.next = null; 
     head=evenStart; 
-}
+}}
