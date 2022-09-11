@@ -3,7 +3,7 @@
  
  Time complexity: O(N)
  Space complexity: O(1) */
- 
+ class Int1{
  int count(Node curr){
         Node h=curr;
         int c=0;
@@ -39,4 +39,22 @@
              head2=head2.next;
          }
          return -1;
+	}}
+
+
+
+// Another Approach
+//1.Take two dummy nodes for each list. Point each to the head of the lists.
+//2.Iterate over them. If anyone becomes null, point them to the head of the opposite
+//  lists and continue iterating until they collide.
+public class Solution {
+	public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+		ListNode a= headA;
+		ListNode b = headB;
+		while(a!=b){
+			a= (a==null)? headB: a.next;
+			b= (b==null)? headA: b.next;
+		}
+		return a;
 	}
+}
